@@ -25,7 +25,7 @@ describe("Testing multiplication function", () => {
   for (const mockData of notNegativeMulResultMocks) {
     it("Should not return negative result", () => {
       const result = mul(mockData.a, mockData.b);
-      expect(result).toBeGreaterThan(0);
+      expect(result).toBeGreaterThan(-1);
     });
   }
 

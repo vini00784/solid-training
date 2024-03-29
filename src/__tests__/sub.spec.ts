@@ -7,7 +7,7 @@ import {
   notNegativeSubResultMocks,
 } from "./__mocks__/sub.mock";
 
-describe("Testing sub function", () => {
+describe("Testing subtract function", () => {
   for (const mockData of correctSubMocks) {
     it("Should subtract a - b", () => {
       const result = sub(mockData.a, mockData.b);

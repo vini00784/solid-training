@@ -1,5 +1,5 @@
 export class SumException extends Error {
-    constructor(){
-        super("Sum error")
-    }
+  constructor() {
+    super("Sum error");
+  }
 }

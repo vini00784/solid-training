@@ -7,7 +7,7 @@ import {
   notNegativeMulResultMocks,
 } from "./__mocks__/mul.mock";
 
-describe("Testing multiply function", () => {
+describe("Testing multiplication function", () => {
   for (const mockData of correctMulMocks) {
     it("Should multiply a * b", () => {
       const result = mul(mockData.a, mockData.b);

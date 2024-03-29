@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest run --dir src/test"
+    "test": "vitest run --dir src/__tests__"
   },
   "keywords": [],
   "author": "",
